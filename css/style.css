@@ -1,0 +1,182 @@
+
+body {
+	font: 15px 'Lato', sans-serif;
+}
+
+img,
+embed,
+object,
+video {
+	max-width: 100%;
+}
+
+h1 {
+	color: #b27F4c;
+	text-transform: uppercase;
+	font-size: 1em;
+}
+
+@media screen and (min-width: 767px) {
+	h1 {
+		font-size: 1.95em;
+	}
+}
+
+h2 {
+	font-size: 1.6em;
+	color: #663401;
+	text-transform: uppercase;
+}
+
+h3 {
+	font-size: 1.2em;
+	text-transform: uppercase;
+	color: #b27F4c;
+}
+
+.navbar-default {
+	background-color: #0c5166;
+}
+
+.navbar-default .navbar-brand {
+	color: #fff;
+}
+
+@media screen and (min-width: 1000px) {
+	.navbar-brand{
+		text-transform: uppercase;
+	}
+}
+
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+	color: #b27F4c;
+}
+
+.navbar-default .navbar-text {
+	color: #fff;
+}
+
+.navbar-default .navbar-nav > li > a {
+	color: #fff;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+	color: #b27F4c;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+	color: #b27F4c;
+	background-color: #b27F4c;
+}
+
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+	color: #b27F4c;
+	background-color: #b27F4c;
+}
+
+.navbar-default .navbar-toggle {
+	border-color: #b27F4c;
+}
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+	background-color: #b27F4c;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #fff;
+}
+
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+	border-color: #fff;
+}
+
+.navbar-default .navbar-link {
+	color: #fff;
+}
+
+.navbar-default .navbar-link:hover {
+	color: #663401;
+}
+
+@media screen and (max-width: 767px) {
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+		color: #fff;
+	}
+
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+		color: #663401;
+	}
+
+	.navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+		color: #663401;
+		background-color: #2692b2;
+	}
+	
+	.col-md-10{
+		width: 60%;
+	}
+}
+
+.logo {
+	border-radius: 50%;
+	width: 100%;
+	max-width: 100px;
+}
+
+.page-header {
+	padding-bottom: 9px;
+	margin: 40px 0px 20px;
+	border-bottom: 2px solid #2692B2;
+}
+
+.text-row {
+	margin-left: 4px;
+}	
+
+.title {
+	text-align: right;
+}
+
+.col-md-4 {
+	text-align: center;
+	line-height: 48px;
+	min-width: 250px;
+}
+
+.image_in_column {
+    max-width:360px;
+    width: calc((100% - 10px));
+}
+
+.last_image {
+	margin-right: 0;
+}
+
+.row {
+	margin-bottom: 10px;
+}
+
+.footer {
+	text-align: center;
+}
+
+.footer > a >.fa {
+	font-size: 40px;
+	width: 48px;
+	height: 48px;
+	margin: 10px 10px 5px 15px;
+	color: #0C5166;
+}
+
+.fa.fa-twitter:hover, .fa.fa-twitter:focus {
+	color: #019fe9;
+}
+
+.fa.fa-facebook-official:hover, .fa.fa-facebook-official:focus {
+	color: #012579;
+}
+
+.fa.fa-envelope-o:hover, .fa.fa-envelope-o:focus {
+	color: #e04c40;
+}
